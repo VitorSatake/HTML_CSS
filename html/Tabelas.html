@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <style></style>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curso HTML</title>
+    <style>table, th, td {border: 1px solid #000;}
+        th, td {padding: 7px;}
+        .nome{background-color:red;}
+        .email{background-color:green;}
+        .telefone{background-color:blue;}
+        .cargo{background-color:yellow;}
+    </style><!--estilo para a tabela-->
+    
+
+</head>
+<body>
+    <h1>Tabelas</h1>
+    <table>
+        <caption>Cadastro de Clientes</caption><!--legenda-->
+
+        <colgroup> <!--cria um grupo de colunas para serem estilizadas de forma individual no style acima-->
+            <col class="nome">
+            <col class="email">
+            <col class="telefone">
+            <col class="cargo">
+        </colgroup>
+
+        <thead><!--sessao-->
+        <tr><!--titulo de linhas-->
+            <th>Nome:</th> <!--colunas-->
+            <th>Email:</th>
+            <th>Telefone:</th>
+            <th>Cargo:</th>
+        </tr>
+        </thead>
+
+        <tbody><!--sessao-->
+        <tr>
+            <td>Pedro</td><!--conteudo de linhas-->
+            <td>Pedro@gmail.com</td>
+            <td>2334445455</td>
+            <td rowspan="2">Desenvolvedor Web</td><!--rowspan="2" == essa informação vai ocupar o espaço de 2 linhas-->
+        </tr>
+        <tr>
+            <td>Luiz</td><!--conteudo de linhas-->
+            <td>luiz@gmail.com</td>
+            <td>674453333</td>
+        </tr>
+        </tbody>
+
+        <tfoot><!--sessao-->
+        <tr>
+            <td colspan="4">Total: 2</td><!--colspan="4" == essa informação vai ocupar o espaço de 4 colunas-->
+        </tr>
+        </tfoot>
+    </table>
+</body>
+</html>
