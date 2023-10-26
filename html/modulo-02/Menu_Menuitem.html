@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curso HTML</title>
+    <style>
+        div{width: 300;height: 300;background-color: #ccc;}
+    </style>
+</head>
+<body><!--cria um menu quando clica com o botão direito do mouse, podendo criar menus dentro de menus-->
+    <div class="elemento" contextmenu="meu-menu"></div>
+    <menu type="context" id="meu-menu">
+        <menuitem>Atualizar</menuitem>
+        <menu type="context"></menu>
+    </menu>
+</body>
+</html>
