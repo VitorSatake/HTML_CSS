@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curso HTML</title>
+</head>
+<body>
+    <form action="cadastro.php" method="GET" >
+
+        <fieldset><!--gera um campo limitador-->
+            <legend>Informações Pessoais</legend><!--gera uma legenda no campo limitador-->
+        Nome: <br>
+        <input type="text" name="nome" maxlength="5" required autofocus id="id_nome"><br>
+        Senha: <br>
+        <input type="password" name="senha" required id="id_senha"><br>
+        Email: <br>
+        <input type="email" name="email" required id="id_email"> <br><br>
+        Time: <br>
+        <input type="radio" name="time" value="vasco" id="id_time">Vasco
+        <input type="radio" name="time" value="flamengo" id="id_time">Flamengo
+        <input type="radio" name="time" value="santos" id="id_time">Santos
+        <input type="radio" name="time" value="palmeiras" checked id="id_time">Palmeiras <br><br>
+        Cores: <br>
+        <input type="checkbox" name="cores" value="verde" checked id="id_cores">Verde <br>
+        <input type="checkbox" name="cores" value="vermelho" id="id_cores">Vermelho <br>
+        <input type="checkbox" name="cores" value="amarelo" id="id_cores">Amarelo <br><br>
+
+        Quantidade: <br>
+        <input type="number" name="quantidade" min="0" max="10" step="2" id="id_qnt">
+
+
+        <br><br> <input type="submit" name="btn-enviar" value="Enviar">
+        </fieldset>
+    </form>
+
+    <!--
+        required = campo obrigatório
+        autofocus = da um foco quando abrir a pagina
+        disabled = deixa o campo desabilitado
+        maxlength = limita o numero de caracteres
+        radio = usuario escolhe uma entre varias opções
+        checked = atribui valor padrao
+        no number, step = diz um intervalo de quantos em quantos irá contar
+    -->
+</body>
+</html>
