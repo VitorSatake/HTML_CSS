@@ -1,4 +1,8 @@
 
+h1, h2, p {color: red;text-align: center;} /* agrupamento */
+
+
+/*
 
 *{margin:0;padding:0;color:red;} 
 
@@ -10,7 +14,7 @@ input{width: 200px;background-color: #ccc;}
 input[type=text]{width: 200px;background-color: red;height: 40px;border: none;}
 input[type=email]{width: 200px;background-color: green;height: 40px;border: none;}
 input[type=submit]{width: 200px;background-color: black;height: 40px;border: none;cursor: pointer;}
-/*
+
 
 o * é o seletor universal, normalemente de inicialização, mas a preferencia e das especificas como h1 direto
 h1{color: blue;font-size: 60px;font-family: tahoma;} = seletor tag

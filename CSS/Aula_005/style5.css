@@ -1,0 +1,15 @@
+#exemplo2{background-color: green;color: #fff; width: 500px;padding-left: 20px;padding-top: 20px;padding-right: 20px;padding-bottom: 20px;}
+
+/*
+ou agrupando o padding, começando no sentido horário
+*/
+
+#exemplo{background-color: green;color: #fff; width: 500px;padding: 20px 20px 20px 20px;}
+
+#exemplomargin{background-color: red;color: #fff; width: 500px;margin-top: 20px;margin-left: 20px;}
+
+/*
+padding = espaçamento interno
+margin = espeçamento externa (mesmo esquema de agrupamento)
+
+*/

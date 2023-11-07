@@ -1,0 +1,8 @@
+*{box-sizing: border-box;}
+
+#conteudo{background-color: red;width: 300px;padding: 20px;box-shadow: 10px 10px 50px blue;}
+
+/*
+box=sizing = mantem o width mesmo adicionando o padding, para não aumentas o tamanho da caixa, normalmente cria um seletor universal para isso, para afetar a todos quando usar o padding
+box-shadow = adiciona uma sombra
+*/

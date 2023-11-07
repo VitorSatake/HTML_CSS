@@ -1,0 +1,13 @@
+
+
+.texto-principal{color: red; text-align: center;}
+
+.fundo-principal{background-color: green;padding: 30px;}
+
+#conteudo{background-color: blue;padding: 20px;color: green;}
+/*
+para definir uma classe coloca um . antes do nome, e o nome que deseja criar
+
+# usa para o id
+
+*/

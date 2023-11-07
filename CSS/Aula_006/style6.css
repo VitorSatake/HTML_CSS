@@ -1,0 +1,17 @@
+p{color: red;text-align: justify;text-transform: capitalize;text-indent: 20px;line-height: 50px;direction: ltr;letter-spacing: 5px;word-spacing: 20px;text-shadow: 3px 3px 4px blue;}
+h1{text-align: left;text-decoration: underline;}
+h2{text-align: right;text-decoration: overline;}
+h3{text-align: center;text-decoration: line-through;}
+
+/*
+color = cor do texto
+alinhemnto do texto = text-align
+text-decoration = linha 
+text-transform = transforma o texto de acordo com o especificado, exemplo uppercase, para maiusculas, capitilize = apenas a primeira letra das palavras ficam maiusculas
+text-identt = cria um recua na primeira linha
+line-height = define a altura das linas
+direction = direção do texto (rtl = right to left) e ltr o oposto
+letter-spacing = espaçamento entre as letras
+word-spacing = espaçamento entre as palavras
+text-shadow = sombra ao texto (posição horizontal posição vertical desfoque cor da sombra)
+*/
