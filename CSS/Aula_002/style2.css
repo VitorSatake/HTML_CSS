@@ -1,0 +1,23 @@
+
+
+*{margin:0;padding:0;color:red;} 
+
+h1{color: blue;font-size: 50px;}
+p{color: green; font-size: 12px;}
+
+input{width: 200px;background-color: #ccc;}
+
+input[type=text]{width: 200px;background-color: red;height: 40px;border: none;}
+input[type=email]{width: 200px;background-color: green;height: 40px;border: none;}
+input[type=submit]{width: 200px;background-color: black;height: 40px;border: none;cursor: pointer;}
+/*
+
+o * é o seletor universal, normalemente de inicialização, mas a preferencia e das especificas como h1 direto
+h1{color: blue;font-size: 60px;font-family: tahoma;} = seletor tag
+
+input{width: 200px;background-color: #ccc;} = aplica em todos os insputs
+input[type=text]{width: 200px;background-color: red;} = especifica para o input text e assim por diante para todos
+*/
+
+
+
