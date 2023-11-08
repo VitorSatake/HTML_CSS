@@ -1,0 +1,8 @@
+*{font-size: 100%;}
+
+p{font-family: Arial, Verdana sans-serif; font-variant: small-caps;font-weight: bold;font-style: italic;font-size: 5em;}
+
+/*
+por padrao pela w3c, deixar a font size universal em 100%, e colocar individual como o exemplo 2em (1em = 16px)
+
+*/

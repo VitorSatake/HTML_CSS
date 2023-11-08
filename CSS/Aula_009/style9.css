@@ -1,0 +1,9 @@
+#bloco {background-color: green;width: 300px;height: 150px;border-radius: 100px 30px 100px;}
+
+
+/*
+Border Radius = cantos arredondados, se atibuir só um valor, ele aatribui para todos os cantos, caso queria diferenciar por valor individual, seguir a sequencia sentido horário
+
+Individuais = border-top-left-radius, canto superior esquerdo, e assim por diante
+bottom no lugar do top, para cantos inferiores
+*/

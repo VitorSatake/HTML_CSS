@@ -1,0 +1,12 @@
+#conteudo{background-color: red;width: 300px;height: 70px;overflow: auto;}
+#conteudo p{opacity: 0.1;}
+
+/*
+overflow = visible, a parte que excede a div continua visivel
+overflow = hidden, a parte que excede a div não fica visivel
+overflow = scroll, adiciona barra de rolagem ao que excede
+overflow = auto, adiciona barra de rolagem de acordo com a necessidade
+
+opacity 1 = igaul a 100%, ou seja, fica normal; diminuindo até zero vai ficando mais transparente, como 0.5 por exemplo
+
+*/
