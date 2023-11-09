@@ -1,0 +1,8 @@
+#conteudo {width: 600px; height: 1200px; background-color: red;position: relative;}
+#texto {width: 500px; background-color: green;position: absolute; left: 37px; top: 80px;}
+
+/*
+position = para trabalhar a posição dos elementos dentro da pagina
+position fixed = deixa o elemento fixo, mesmo na rolagem da pagina
+
+*/
