@@ -1,0 +1,14 @@
+#exemplo {width: 200px; height: 200px; background-color: red;transition-property: width;transition-duration: 2s;transition-timing-function: linear;transition-delay: 2s;}
+#exemplo:hover{width: 350px; height: 350px; background-color: green;}
+
+/*
+hover : controla o estado do elemento quando passa o mouse por cima
+
+transition = serve para suavizar a mudança de estado
+transition-property: width;transition-duration: 2s; = referente a largura, fazendo a transição em 2 segundos, sempre em segundos
+transition-timing-function: = o ritmo da transição
+transition-delay = tempo de espera para iniciar a transição
+
+otimizando = transition: width 2s linear 2s;
+otimizando = transition: width 2s linear 2s, height 2s linear 2s; colocando outras propriedades
+*/
